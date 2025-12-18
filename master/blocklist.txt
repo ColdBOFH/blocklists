@@ -1,0 +1,5 @@
+! Title: ColdBOFH's DNS Block LIst
+! Homepage:
+! Description: Websites that annoy me for various reasons
+! Version: 20251218
+! Script last updated: 
