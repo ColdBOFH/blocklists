@@ -1,12 +1,101 @@
-! Title: ColdBOFH's DNS Block LIst
+[Adblock Plus 2.0]
+! Title: ColdBOFH's DNS Block List
+! Expires: 7 Days
 ! Description: Websites that annoy me for various reasons. Usually weird connections observed in my firewall.
-! Version: 20251218
-! Script last updated: 
+! Homepage: https://github.com/ColdBOFH/blocklists
+! License: https://www.gnu.org/licenses/gpl-3.0.en.html#license-text
+! Version: 20251219
 
-self.events.data.microsoft.com	    	#Windows Telemetry
-mobile.events.data.microsoft.com	 	#Windows Telemetry
-win1710.ipv6.microsoft.com	        	#Windows Telemetry
-pnapi.invoca.net	                  	#Mystery Analytics
+
+!Telemetry/Spies
+!| Left | Center | Right |
+!|:-----|:------:|------:|
+self.events.data.microsoft.com
+mobile.events.data.microsoft.com
+win1710.ipv6.microsoft.com
+pnapi.invoca.net
 	
-live.primis.tech	                  	#Mystery video provider. Probably related to uTorrent
-video.rainberrytv.com	              	#uTorrent Advertising
+
+!Generally Mysterious and/or Shifty
+!| Left | Center | Right |
+!|:-----|:------:|------:|
+coindesk.com
+cragslist.org
+rlcdn.com
+twitter.ip
+update85.com
+
+	
+!Trackers
+!| Left | Center | Right |
+!|:-----|:------:|------:|
+abmr.net
+adclick.g.doubleclick.net
+doubleclick.net
+globaladredirecttracking.com
+luminate.com
+wips.com
+
+
+
+!Ads
+!| Left | Center | Right |
+!|:-----|:------:|------:|
+100gbtube.com
+2mdn.net
+4seeresults.com
+71i.de
+adrocketmedia.com
+amateurmatch.com
+brothersoft.com
+chaturbate.com
+cnet.com
+contentabc.com
+daredorm.com
+digivirtus.com
+download.com
+download4free.org
+edgesuite.net
+efukt.com
+exoclick.com
+exosrv.com
+filesonic.com
+gfrevenge.com
+images.taboola.com taboola.com
+taboola.com
+informer.com
+live.primis.tech
+moviebox.com
+mtvnservices.com
+naked.com
+nbcuni.com
+nothingtoxic.com
+pointroll.com
+pop6.com
+popads.net
+s0.2mdn.net
+sinclips.com
+telemetryverification.net
+tembosocial.com
+terk.nl
+theworldwatch.com
+tucows.com
+video.rainberrytv.com
+yadro.ru
+yandex.ru
+
+
+!Lamer/Annoying
+!| Left | Center | Right |
+!|:-----|:------:|------:|
+blastro.com
+files.wordpress.com
+iperceptions.com
+keepvid.com
+limetorrents.com
+monova.org
+omicron.org
+pcdir.net
+pctext.net
+pollstream.com
+youtube-dl.com
