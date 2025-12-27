@@ -3,6 +3,7 @@
 ! Expires: 7 Days
 ! Description: Undesired IP address connections
 ! Homepage: https://github.com/ColdBOFH/blocklists
+! Download Location: https://raw.githubusercontent.com/ColdBOFH/blocklists/main/ip_blocklist.txt
 ! License: https://www.gnu.org/licenses/gpl-3.0.en.html#license-text
 ! Version: 20251226
 
