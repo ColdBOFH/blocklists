@@ -11,10 +11,13 @@
 !Telemetry/Spies
 !| Left | Center | Right |
 !|:-----|:------:|------:|
-self.events.data.microsoft.com
+client.wns.windows.com
 mobile.events.data.microsoft.com
-win1710.ipv6.microsoft.com
+nav-edge.smartscreen.microsoft.com
 pnapi.invoca.net
+self.events.data.microsoft.com
+win1710.ipv6.microsoft.com
+
 	
 
 !Generally Mysterious and/or Shifty
@@ -25,7 +28,9 @@ cragslist.org
 rlcdn.com
 twitter.ip
 update85.com
-
+debian.map.fastlydns.net	
+gameplay.intel.com	
+checkip.dyndns.org
 	
 !Trackers
 !| Left | Center | Right |
@@ -114,3 +119,14 @@ passwordsleakcheck-pa.googleapis.com
 accounts.google.com	
 update.googleapis.com	
 c.pki.goog	
+
+
+!Regex Blocks *REFERENCE ONLY - NOT PARSED*
+!| Left | Center | Right |
+!|:-----|:------:|------:|
+(\.|^)spotify\.com$ ## Unused svc found in logs
+(\.|^)debian\.pool\.ntp\.org$  ## Unused svc found in logs
+invoca ##  Blocks *invoca*
+ip-tracker  ## Blocks *ip-tracker*
+livechatinc  ## Blocks *livechatinc*
+
