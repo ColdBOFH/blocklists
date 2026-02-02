@@ -61,7 +61,6 @@ daredorm.com
 digivirtus.com
 download.com
 download4free.org
-(\.|^)dyndns\.org$  ##Unrequested outbound connection 20251229
 edgesuite.net
 efukt.com
 exoclick.com
@@ -74,7 +73,6 @@ informer.com
 live.primis.tech
 moviebox.com
 mtvnservices.com
-(\.|^)musicbrainz\.org$  #Unrequested outbound connection 20251229
 naked.com
 nbcuni.com
 nothingtoxic.com
@@ -83,13 +81,11 @@ pop6.com
 popads.net
 s0.2mdn.net
 sinclips.com
-(\.|^)spotify\.com$  #Not a spotify user 20251229
 telemetryverification.net
 tembosocial.com
 terk.nl
 theworldwatch.com
 tucows.com
-(\.|^)tunefindforfans\.com$  #opensubtitles.org ads updated 20251229
 video.rainberrytv.com
 yadro.ru
 yandex.ru
@@ -124,9 +120,13 @@ c.pki.goog
 !Regex Blocks *REFERENCE ONLY - NOT PARSED*
 !| Left | Center | Right |
 !|:-----|:------:|------:|
-(\.|^)spotify\.com$ ## Unused svc found in logs
 (\.|^)debian\.pool\.ntp\.org$  ## Unused svc found in logs
-invoca ##  Blocks *invoca*
-ip-tracker  ## Blocks *ip-tracker*
-livechatinc  ## Blocks *livechatinc*
+(\.|^)dyndns\.org$  ##Unrequested outbound connection 20251229
+(\.|^)musicbrainz\.org$  #Unrequested outbound connection 20251229
+(\.|^)spotify\.com$  #Not a spotify user 20251229
+(\.|^)tunefindforfans\.com$  #opensubtitles.org ads updated 20251229
+(^|\\.)paqofy\\.\\w+$  ## Chrome redirect for broken websites 20260202
+(^|\\.)invoca\\.\\w+$ ##  Phone conversation analytics 20260202
+(^|\\.)ip-tracker\\.\\w+$  ## Blocks *ip-tracker*
+(^|\\.)livechatinc\\.\\w+$  ## AI/Bot marketing
 
