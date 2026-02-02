@@ -104,3 +104,13 @@ pcdir.net
 pctext.net
 pollstream.com
 youtube-dl.com
+
+!Google Related
+!| Left | Center | Right |
+!|:-----|:------:|------:|
+optimizationguide-pa.googleapis.com	
+connectivitycheck.gstatic.com	
+passwordsleakcheck-pa.googleapis.com	
+accounts.google.com	
+update.googleapis.com	
+c.pki.goog	
